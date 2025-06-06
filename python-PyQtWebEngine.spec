@@ -16,13 +16,13 @@ Summary:	Python 2 bindings for the Qt5WebEngine module
 Summary(pl.UTF-8):	Wiązania Pythona 2 do modułu Qt5WebEngine
 Name:		python-%{module}
 # keep < 5.15.7 here for python2/sip4 support
-Version:	5.15.5
-Release:	4
+Version:	5.15.6
+Release:	1
 License:	GPL v3
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/pyqtwebengine/
-Source0:	https://pypi.python.org/packages/source/P/PyQtWebEngine/PyQtWebEngine-%{version}.tar.gz
-# Source0-md5:	935e8948c6e2a4b41faa0734367ead43
+Source0:	https://files.pythonhosted.org/packages/source/P/PyQtWebEngine/PyQtWebEngine-%{version}.tar.gz
+# Source0-md5:	d1e548617de149ba8142a32c1eb9f994
 Patch0:		install.patch
 URL:		https://www.riverbankcomputing.com/software/pyqtwebengine/
 BuildRequires:	Qt5WebEngine-devel >= %{qt_ver}
